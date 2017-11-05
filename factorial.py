@@ -15,4 +15,5 @@ if __name__ == '__main__':
 
 	result = factorial(number)
 
-	print ('{:,}').format(result)
+	#print ('{:.2e}').format(result)
+	print ('%.3E'%result)
